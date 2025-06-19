@@ -1,12 +1,11 @@
-﻿using System;
-using FluentAssertions;
+﻿using FluentAssertions;
 using Xunit;
 
 namespace FrameworkConsoleApp1.Tests.Story
 {
-    public class UnitTest1
+    public class DeveloperTests
     {
-        [Fact]
+        [Fact(DisplayName = "Тест разработчика")]
         public void TestMethod1()
         {
             true.Should().BeTrue();
