@@ -10,7 +10,7 @@ int main()
     cout << "Привет!" << endl;
 
     cout << "Нажать любую кнопку для завершения ..." << endl;
-    getchar();
+    cin.get();
     return 0;
 }
 
